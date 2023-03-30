@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.notification {
+  left: 20%;
+  bottom: 15%;
+  animation: cssAnimation 0s 3s forwards;
+  visibility: visible;
+}
+
+@keyframes cssAnimation {
+  to   { visibility: hidden; }
+}
